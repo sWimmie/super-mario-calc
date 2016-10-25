@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27AA38751DBF75FE00A4CE91 /* smbfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27AA38741DBF75FE00A4CE91 /* smbfont.ttf */; };
+		27AA38771DBF772400A4CE91 /* mb_jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 27AA38761DBF772400A4CE91 /* mb_jump.wav */; };
+		27AA38791DBF9D8800A4CE91 /* mb_coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 27AA38781DBF9D8800A4CE91 /* mb_coin.wav */; };
 		27E0A31E1DB9607600A12DE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E0A31D1DB9607600A12DE6 /* AppDelegate.swift */; };
-		27E0A3201DB9607600A12DE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E0A31F1DB9607600A12DE6 /* ViewController.swift */; };
+		27E0A3201DB9607600A12DE6 /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E0A31F1DB9607600A12DE6 /* CalculatorVC.swift */; };
 		27E0A3231DB9607600A12DE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E0A3211DB9607600A12DE6 /* Main.storyboard */; };
 		27E0A3251DB9607600A12DE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E0A3241DB9607600A12DE6 /* Assets.xcassets */; };
 		27E0A3281DB9607600A12DE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E0A3261DB9607600A12DE6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27AA38741DBF75FE00A4CE91 /* smbfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = smbfont.ttf; sourceTree = "<group>"; };
+		27AA38761DBF772400A4CE91 /* mb_jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mb_jump.wav; sourceTree = "<group>"; };
+		27AA38781DBF9D8800A4CE91 /* mb_coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mb_coin.wav; sourceTree = "<group>"; };
 		27E0A31A1DB9607600A12DE6 /* SuperMarioCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperMarioCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E0A31D1DB9607600A12DE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27E0A31F1DB9607600A12DE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27E0A31F1DB9607600A12DE6 /* CalculatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVC.swift; sourceTree = "<group>"; };
 		27E0A3221DB9607600A12DE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27E0A3241DB9607600A12DE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27E0A3271DB9607600A12DE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,9 +60,12 @@
 		27E0A31C1DB9607600A12DE6 /* SuperMarioCalc */ = {
 			isa = PBXGroup;
 			children = (
+				27AA38761DBF772400A4CE91 /* mb_jump.wav */,
+				27AA38781DBF9D8800A4CE91 /* mb_coin.wav */,
 				27E0A31D1DB9607600A12DE6 /* AppDelegate.swift */,
-				27E0A31F1DB9607600A12DE6 /* ViewController.swift */,
+				27E0A31F1DB9607600A12DE6 /* CalculatorVC.swift */,
 				27E0A3211DB9607600A12DE6 /* Main.storyboard */,
+				27AA38741DBF75FE00A4CE91 /* smbfont.ttf */,
 				27E0A3241DB9607600A12DE6 /* Assets.xcassets */,
 				27E0A3261DB9607600A12DE6 /* LaunchScreen.storyboard */,
 				27E0A3291DB9607600A12DE6 /* Info.plist */,
@@ -123,8 +132,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27AA38751DBF75FE00A4CE91 /* smbfont.ttf in Resources */,
 				27E0A3281DB9607600A12DE6 /* LaunchScreen.storyboard in Resources */,
+				27AA38791DBF9D8800A4CE91 /* mb_coin.wav in Resources */,
 				27E0A3251DB9607600A12DE6 /* Assets.xcassets in Resources */,
+				27AA38771DBF772400A4CE91 /* mb_jump.wav in Resources */,
 				27E0A3231DB9607600A12DE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27E0A3201DB9607600A12DE6 /* ViewController.swift in Sources */,
+				27E0A3201DB9607600A12DE6 /* CalculatorVC.swift in Sources */,
 				27E0A31E1DB9607600A12DE6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +313,7 @@
 				27E0A32E1DB9607600A12DE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
